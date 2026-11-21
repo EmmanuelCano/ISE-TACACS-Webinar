@@ -2,7 +2,7 @@ reload in 0:15 #In Global mode
 !
 aaa-server ISE protocol tacacs+
 aaa-server ISE (outside) host ISE_IPAddress
- key Webinar123
+ key XXXX
 !
 #Test Authentication
 test aaa authentication ISE host ISE_IP_Address username asauser password Cisco123
