@@ -10,7 +10,7 @@ username admin privilege 15 secret cisco123
 !
 tacacs server ise-1
 address ipv4 ISE_IP_Address
-key Cisco123
+key XXX
 !
 aaa group server tacacs+ demoTG
 server name ise-1
@@ -34,7 +34,7 @@ aaa authorization config-commands
 Step 3: Review traffic flow
 
 1.	Test Command: 
-test aaa group demoTG User1 Cisco123 new-code
+test aaa group demoTG USERNAME KEY new-code
 
 2.	Debugs commands:
 debug aaa authentication
